@@ -1,0 +1,28 @@
+# --- Python & Environment ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+.env
+
+# --- PyCharm & IDEs ---
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# --- Project Specifics ---
+# We WANT to track these (Do NOT ignore)
+!pyproject.toml
+!uv.lock
+!.python-version
+!src/
+
+# --- Build & Distribution ---
+dist/
+build/
+*.egg-info/
+
+# --- System Garbage ---
+.DS_Store
+Thumbs.db

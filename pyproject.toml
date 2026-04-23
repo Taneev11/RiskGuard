@@ -1,0 +1,22 @@
+[project]
+name = "fastapi-app"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Taneev", email = "taneevborah11@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi[standard]>=0.136.0",
+    "httpx>=0.28.1",
+    "polars>=1.39.3",
+    "psycopg[binary]>=3.3.3",
+    "sqlmodel>=0.0.38",
+    "streamlit>=1.56.0",
+    "uvicorn>=0.44.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.11.7,<0.12.0"]
+build-backend = "uv_build"
