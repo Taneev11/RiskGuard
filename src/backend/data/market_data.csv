@@ -1,0 +1,9 @@
+ticker,current_price,sector
+AAPL,185.20,Technology
+MSFT,405.15,Technology
+NVDA,825.00,Technology
+AMZN,175.00,Consumer Discretionary
+JPM,190.00,Financials
+V,280.00,Financials
+JNJ,155.00,Healthcare
+PG,160.00,Consumer Staples
